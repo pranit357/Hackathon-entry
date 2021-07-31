@@ -118,6 +118,15 @@ header > div > div:hover{
     height: 350px;
     border-radius: 80px;
 }
+.schemes{
+    
+    text-align: center;
+    font-size:50px;
+    font-family:'Segoe UI',Tahoma, Geneva, Vergana, sans-serif;
+    color:crimson;
+    
+
+}
 
 /* second page below */
 /* .second_page{
