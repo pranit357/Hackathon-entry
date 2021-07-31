@@ -122,9 +122,33 @@ header > div > div:hover{
 
 /* second scroll page ----------------*/
 .second_page{
+    background: url("Images/2.jpg");
+    background-size: cover;
+    background-position-y: -300px;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 50px 0 50px 0;
+    height: 300px;
     position: relative;
-    top: 350px;
+    top: 300px;
     font-size: large;
     font-weight: 500;
-    color: rgb(0, 26, 255);
+    font-family: Verdana;
+    color: white;
+}
+.left_side_posts{
+    position: relative;
+    width: 200px;
+    height: 250px;
+    top: 400px;
+    background: url("Images/1.jpg");
+    background-size: cover;
+    /* color: white; */
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.left_side_posts > a{
+    padding: 15px;
+    color: white;
 }
