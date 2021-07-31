@@ -17,12 +17,12 @@ header>img{
 header > div{
     display: flex;    
     position: relative;
-    left: 400px;
+    left: 550px;
     font-size: x-large;
 }
 .right_side > div{
     padding: 10px 15px;
-    font-size: 35px;
+    font-size: 30px;
 }
 header > div > div:hover{
     animation: header_animation 1s;
@@ -119,8 +119,12 @@ header > div > div:hover{
     border-radius: 80px;
 }
 
-/* second page below */
-/* .second_page{
+
+/* second scroll page ----------------*/
+.second_page{
     position: relative;
-    top: 600px;
-} */
+    top: 350px;
+    font-size: large;
+    font-weight: 500;
+    color: rgb(0, 26, 255);
+}
