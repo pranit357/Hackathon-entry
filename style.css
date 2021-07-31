@@ -1,0 +1,126 @@
+html{
+    background: linear-gradient(200deg ,rgb(91, 0, 211), rgb(0, 116, 211), rgb(20, 228, 228), rgb(0, 255, 98));
+    background-repeat: no-repeat;
+    height: 1500px;
+    scroll-behavior: smooth;
+}
+header{
+    padding: 5px 10px;
+    display: flex;
+    align-content: space-between;
+    color: cyan;    
+}
+header>img{
+    position: relative;
+    left: 50px;   
+}
+header > div{
+    display: flex;    
+    position: relative;
+    left: 400px;
+    font-size: x-large;
+}
+.right_side > div{
+    padding: 10px 15px;
+    font-size: 35px;
+}
+header > div > div:hover{
+    animation: header_animation 1s;
+    color: rgb(255, 255, 255);
+}
+@keyframes header_animation {
+    0%{
+        transform: scale(1);
+    } 
+    50%{
+        transform: scale(1.2);
+    } 
+    100%{
+        transform: scale(1);
+    }    
+}
+
+/* header ends  */
+
+.side_tab{
+    z-index: 2;
+    height: 0%;
+    width: 150px;
+    background: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+
+    position: absolute;
+    right: 1px;
+    top: 70px;
+}
+.side_tab_animate_class{
+    animation: side_tab_animation 1s linear 1;
+}
+@keyframes side_tab_animation_going_down {
+    0%{
+        height : 0%;
+    }
+    100%{
+        height: 200px;
+    }
+}
+@keyframes side_tab_animation_going_up {
+    0%{
+        height : 0%;
+    }
+    100%{
+        height: 300px;
+    }
+}
+.side_tab{
+    color: white;
+    font-size: medium;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.side_tab > a{
+    font-size: medium;
+    text-align: left;
+    height: 40px;
+    width: 100%;
+}
+.side_cross_logo{
+    position: absolute;
+    right: 28px;
+    top: 17px;
+    visibility: hidden;
+}
+.side_logo{
+    position: absolute;
+    right: 30px;
+    top: 18px;    
+}
+
+
+.topic{
+    position: absolute;
+    top: 200px;
+    font-size: 55px;
+    left: 50px;
+    width: 550px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.image{
+    position: relative;
+    left: 700px;
+    top: 80px;
+    width: 450px;
+    height: 350px;
+    border-radius: 80px;
+}
+
+/* second page below */
+/* .second_page{
+    position: relative;
+    top: 600px;
+} */
